@@ -1,0 +1,162 @@
+/* Start Typography */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    padding: 30px 0;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+img{
+    max-width: 100%;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+.child-half{
+    align-self: center;
+    
+}
+.link-btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+/* End Typography */
+
+
+/* Start Combined Selector */
+
+#header-area .child-half:first-child, #community-area .child-half:first-child{
+    flex-basis: 60%;
+    padding-right: 5%;
+}
+#header-area .child-half:last-child, #community-area .child-half:last-child{
+    flex-basis: 35%;
+}
+#application-area .flexible-area .child-half:first-child, #develop-area .child-half:first-child{
+    flex-basis: 35%;
+}
+#application-area .flexible-area .child-half:last-child, #develop-area .child-half:last-child{
+    flex-basis: 63%;
+    padding-left: 2%;
+}
+
+/* Start Combined Selector */
+
+
+/* Start Header Part */
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-left: 5px solid salmon;
+    padding: 0 10px;
+}
+
+/* End Header Part */
+
+
+/* Start Mission Part */
+
+.mission-area h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50px;
+}
+.mission-area .flexible-area .child-half{
+    flex-basis: 32%;
+    border-radius: 15px;
+    padding: 10px 2%;
+}
+.mission-area .flexible-area .child-half p{
+    padding-top: 10px;
+}
+.mission-area .flexible-area .child-half img{
+    width: 50%;
+    height: 170px;
+}
+.mission-area .flexible-area .child-half:first-child{
+    background-color: #EDF5F6;
+}
+.mission-area .flexible-area .child-half:nth-child(2){
+    background-color: #FFEEEE;
+}
+.mission-area .flexible-area .child-half:last-child{
+    background-color: #FFF4D6;
+}
+
+/* End Mission Part */
+
+
+
+/* Start Develop Part */
+
+#develop-area{
+    background: url(images/bg/shape-1.png) no-repeat;
+    background-position: left;
+    margin: 30px 0;
+}
+
+/* End Develop Part */
+
+
+/* Strat Comunity Part */
+
+#community-area{
+    background: url(images/bg/shape-1.png) no-repeat;
+    background-position: 98% 98%;
+}
+#community-area .child-half:last-child{
+    padding: 40px 0;
+}
+
+/* End Comunity Part */
+
+
+/* Start Application Part */
+
+#application-area h2{
+    text-align: center;
+    padding: 30px 0;
+}
+#application-area .flexible-area h2{
+    text-align: start;
+    padding: 0;
+}
+
+/* End Application Part */
+
+
+/* Start Footer Part */
+
+.footer-area{
+    background-color: #0B0D17;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0 20px;
+}
+.footer-area h2{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* End Footer Part */
